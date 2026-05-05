@@ -56,10 +56,7 @@ def report_activity(order: dict) -> str:
     rollnum = rg.split("-")[-1]
     mi_id = f"/subscriptions/{sub_id}/resourcegroups/{rg}/providers/Microsoft.ManagedIdentity/userAssignedIdentities/mi-pa4-{rollnum}"
     
-    # TODO: Create the container group
-    # Replace the `None` values below with the correct properties.
-    # Hint: Follow the structure shown in the skeleton.
-    
+
     group = ContainerGroup(
         location=loc, os_type=OperatingSystemTypes.linux,
         restart_policy=ContainerGroupRestartPolicy.never,
