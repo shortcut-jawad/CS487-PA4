@@ -2,7 +2,7 @@ import azure.functions as func
 import azure.durable_functions as df
 import os, json, time, requests
 
-app = df.DFApp(http_auth_level=func.AuthLevel.FUNCTION)
+app = df.DFApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
 @app.route(route="orchestrators/my_orchestrator", methods=["POST"])
 @app.durable_client_input(client_name="client")
