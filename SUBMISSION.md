@@ -11,7 +11,7 @@
 
 | Field | Value |
 |---|---|
-| Name | Jawad Shakeel |
+| Name | Muhammad Jawad |
 | Roll Number | 26100356 |
 | GitHub Repository URL | https://github.com/shortcut-jawad/CS487-PA4 |
 | Resource Group | `rg-sp26-26100356` |
